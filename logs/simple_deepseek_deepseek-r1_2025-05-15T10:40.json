@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"You sift through the rubble and uncover a weathered journal and a rusted iron key hidden beneath a cracked stone. The journal's pages describe a sealed chamber beneath the ruins, while the key bears a serpentine engraving.\",\n  \"choices\": [\"Read the journal\", \"Take the key and search for the chamber\", \"Investigate the inscriptions on the walls\"]\n}",
+    "status": "PASS",
+    "elapsed": 4.466796500026248
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"You scan the area, but there is no dagger in sight. The rusted key and journal remain among the rubble, and the inscriptions on the walls seem to pulse faintly as the wind howls.\",\n  \"choices\": [\"Read the journal\", \"Take the key and search for the chamber\", \"Investigate the inscriptions on the walls\"]\n}",
+    "status": "PASS",
+    "elapsed": 10.35855674999766
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"No dagger lies within the ruins\u2014perhaps it was lost to time, or exists elsewhere. The key and journal remain, and the carvings on the walls shimmer with a faint, unnatural light as if reacting to your presence.\",\n  \"choices\": [\"Read the journal\", \"Take the key and search for the chamber\", \"Examine the shimmering inscriptions closely\"]\n}",
+    "status": "FAIL",
+    "elapsed": 5.1317528749932535
+  }
+]

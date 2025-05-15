@@ -1,0 +1,20 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "\n\n```json\n{\n  \"description\": \"As you pick up the ancient dagger, the inscriptions on the walls begin to glow faintly. The wind howls louder, and you feel a strange energy in the air. A hidden door creaks open to your left, revealing a dark passage.\",\n  \"choices\": [\"Enter the dark passage\", \"Examine the glowing inscriptions\", \"Drop the dagger and step back\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.249280540971085
+  },
+  {
+    "input": "look at the stone wall",
+    "response": "```json\n{\n  \"description\": \"You approach the stone wall, its surface covered in intricate, glowing inscriptions. The symbols seem to shift and change as you watch, forming patterns that almost make sense. A faint hum emanates from the wall, as if it's alive with ancient magic. One symbol in particular catches your eye\u2014a crescent moon intertwined with a serpent.\",\n  \"choices\": [\"Touch the crescent moon symbol\", \"Try to decipher the inscriptions\", \"Step back and reconsider your options\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 14.897593292000238
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You glance down and realize the dagger is still clutched tightly in your hand, its blade reflecting the eerie glow from the inscriptions. The metal feels unnaturally cold, almost as if it's absorbing the energy from the wall.\",\n  \"choices\": [\"Sheathe the dagger and step back\", \"Use the dagger to scratch a mark into the wall\", \"Press the dagger's blade against the crescent moon symbol\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.128058207978029
+  }
+]

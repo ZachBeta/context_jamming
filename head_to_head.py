@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 import os, sys, argparse, yaml, json, time, traceback
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from agent import DomainAgent
@@ -10,6 +12,7 @@ import datetime
 
 def run_benchmark(scenario_path: str, provider: str, window_size: int):
     api_key = os.getenv("OPENROUTER_API_KEY")
+    print(f"[DEBUG] OPENROUTER_API_KEY loaded length: {len(api_key) if api_key else 0}", flush=True)
     if not api_key:
         raise RuntimeError("Please set OPENROUTER_API_KEY in your environment.")
     client = OpenRouterClient(api_key, provider)

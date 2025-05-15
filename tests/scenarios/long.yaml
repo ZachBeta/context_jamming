@@ -1,0 +1,20 @@
+- input: "take the dagger"
+  expect_description_contains: ["dagger"]
+- input: "examine the glass vial"
+  expect_description_contains: ["vial"]
+- input: "read the ancient journal"
+  expect_description_contains: ["journal"]
+- input: "open the wooden door"
+  expect_description_contains: ["door"]
+- input: "enter the dark corridor"
+  expect_description_contains: ["corridor"]
+- input: "inspect the dusty painting"
+  expect_description_contains: ["painting"]
+- input: "drink the glowing vial"
+  expect_description_contains: ["vial"]
+- input: "pick up the golden coin"
+  expect_description_contains: ["coin"]
+- input: "study the mossy altar"
+  expect_description_contains: ["altar"]
+- input: "where is my dagger?"
+  expect_description_contains: ["dagger"]

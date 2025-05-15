@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"As you sift through the rubble, your fingers brush against a cold, metallic object. You uncover a rusted iron key etched with faint runes. The wind suddenly grows louder, and a faint grinding noise echoes from deeper within the ruins.\",\n  \"choices\": [\"Take the key\", \"Investigate the grinding noise\", \"Retreat to the entrance\"]\n}",
+    "status": "PASS",
+    "elapsed": 9.606173957989085
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"Your hands find only crumbling stone and ancient dust - there is no dagger here. The grinding noise crescendos into a thunderous roar as part of the ceiling collapses nearby. The runes on your newly acquired key begin glowing faintly.\",\n  \"choices\": [\"Flee from the collapsing rubble\", \"Examine the glowing runes\", \"Follow the key's faint pulse deeper into ruins\"]\n}",
+    "status": "PASS",
+    "elapsed": 20.571294500026852
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"The dagger exists only in your mind - this tomb holds only what you brought with you. The glowing key grows warm in your hand as dust cascades from trembling walls. Somewhere deep in the ruins, stone grinds against stone like ancient teeth.\",\n  \"choices\": [\"Press palm against the vibrating wall\", \"Throw the key away in frustration\", \"Shout challenges at the unseen collapsing force\"]\n}",
+    "status": "FAIL",
+    "elapsed": 27.954069333034568
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "```json\n{\n  \"description\": \"As you sift through the rubble, your fingers brush against something cold and metallic. You uncover a small, ornate key half-buried in the debris. The inscriptions on the walls seem to glow faintly as you hold the key.\",\n  \"choices\": [\"Examine the key more closely\", \"Try the key on the nearest door\", \"Ignore the key and continue exploring\", \"Read the glowing inscriptions\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 9.451807875011582
+  },
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the dagger, but as your fingers close around its hilt, a sudden gust of wind extinguishes your torch. The inscriptions on the walls pulse with an eerie blue light, revealing shadowy figures moving in the periphery of your vision. The dagger feels unnaturally cold in your grip.\",\n  \"choices\": [\"Light the torch again\", \"Investigate the shadowy figures\", \"Sheathe the dagger and back away\", \"Follow the pulsing light on the inscriptions\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.164560083998367
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You look down and see the dagger still firmly gripped in your hand, its blade reflecting the eerie blue glow from the inscriptions. The cold metal seems to hum faintly, as if resonating with the ancient magic of the ruins.\",\n  \"choices\": [\"Inspect the dagger's markings\", \"Attempt to use the dagger on the glowing inscriptions\", \"Sheathe the dagger and draw your torch\", \"Throw the dagger at the shadowy figures\"]\n}\n```",
+    "status": "FAIL",
+    "elapsed": 13.827526749984827
+  }
+]

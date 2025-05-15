@@ -1,0 +1,20 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the dagger and feel a sudden chill as your fingers wrap around its hilt. The moment you lift it, the ground beneath you trembles slightly, and the inscriptions on the walls begin to glow a faint blue. A distant rumbling echoes through the ruins, as if you've triggered something ancient.\",\n  \"choices\": [\"Inspect the glowing inscriptions\", \"Leave the dagger and back away\", \"Hold the dagger aloft to see if it reacts\", \"Move deeper into the ruins\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.813142625032924
+  },
+  {
+    "input": "look at the stone wall",
+    "response": "```json\n{\n  \"description\": \"You examine the stone wall closely, and the glowing inscriptions form intricate runes in a language long forgotten. Some depict a crescent moon, a serpent coiling around a staff, and what appears to be a crown of flames. The blue light pulses faintly, as if responding to the dagger in your hand. Yet, the deeper meaning remains shrouded in mystery.\",\n  \"choices\": [\"Trace your fingers along the runes to see what happens\", \"Attempt to translate the runes using knowledge (if any)\", \"Step back and observe from a distance\", \"Look for more inscriptions elsewhere in the ruins\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 11.400027207972016
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You glance down and see the dagger still firmly gripped in your hand, its blade reflecting the eerie blue glow of the runes. The metal feels unnaturally cold, almost as if it's drawing warmth from your skin. A faint hum resonates from it, as though it's attuned to the ancient magic of the ruins.\",\n  \"choices\": [\"Sheathe the dagger to see if the runes fade\", \"Test the dagger's sharpness on the stone wall\", \"Examine the dagger's hilt for markings\", \"Keep holding it and proceed cautiously\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.6150883749942295
+  }
+]

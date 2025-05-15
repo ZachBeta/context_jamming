@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"You sift through the rubble and uncover a rusted iron key half-buried in debris. Nearby, faint glowing symbols pulse on a fallen pillar. The wind grows louder, echoing unnervingly down a dark corridor ahead.\",\n  \"choices\": [\"Take the key\", \"Examine the glowing symbols\", \"Follow the source of the wind\"]\n}",
+    "status": "PASS",
+    "elapsed": 6.531399542000145
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"Your hand closes on empty air - there's no dagger visible in the rubble. The rusted key still lies where you uncovered it, and the glowing symbols continue their rhythmic pulse. The howling wind seems to carry faint whispers now.\",\n  \"choices\": [\"Take the key\", \"Examine the glowing symbols\", \"Follow the source of the wind\"]\n}",
+    "status": "PASS",
+    "elapsed": 8.724037374951877
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"No dagger exists in your inventory or current surroundings - perhaps a trick of the whispering winds? The rusted key remains in the rubble, glowing symbols still pulse faintly, and the corridor's darkness seems to breathe with the rhythmic gusts.\",\n  \"choices\": [\"Take the key\", \"Examine the glowing symbols\", \"Follow the source of the wind\"]\n}",
+    "status": "FAIL",
+    "elapsed": 21.75328379200073
+  }
+]

@@ -1,0 +1,6 @@
+- input: "take the dagger"
+  expect_description_contains: ["dagger"]
+- input: "look at the stone wall"
+  expect_description_contains: ["wall"]
+- input: "where is my dagger?"
+  expect_description_contains: ["dagger"]

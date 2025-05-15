@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"You sift through the rubble and uncover a rusted iron amulet etched with faint glowing symbols. Behind a collapsed pillar, you spot a narrow crack in the wall leading to darkness.\",\n  \"choices\": [\"Examine the amulet's symbols\", \"Squeeze through the crack\", \"Return to studying the wall inscriptions\"]\n}",
+    "status": "PASS",
+    "elapsed": 14.776840500009712
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"You reach for the dagger, but your hand passes through empty air\u2014there is no dagger here. As you step back, your boot crunches on a shattered clay tablet covered in angular runes.\",\n  \"choices\": [\"Study the clay tablet runes\", \"Re-examine the glowing amulet\", \"Investigate the crack in the wall\"]\n}",
+    "status": "PASS",
+    "elapsed": 7.018305832985789
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"The air shimmers faintly where you thought you saw a dagger. This place warps perception - was it ever truly there? Your inventory remains empty. The crumbling ruins seem to whisper with half-formed illusions.\",\n  \"choices\": [\"Search the clay tablet again\", \"Focus on the amulet's glow\", \"Shout challenges at the whispering wind\", \"Test the wall crack's dimensions\"]\n}",
+    "status": "FAIL",
+    "elapsed": 14.321010417013895
+  }
+]
