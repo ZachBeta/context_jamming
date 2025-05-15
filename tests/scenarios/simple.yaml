@@ -1,0 +1,6 @@
+- input: "search the rubble"
+  expect_description_contains: ["rubble"]
+- input: "take the dagger"
+  expect_description_contains: ["dagger"]
+- input: "where is my dagger?"
+  expect_description_contains: ["you have the dagger"]

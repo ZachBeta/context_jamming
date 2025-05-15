@@ -10,7 +10,7 @@ class OpenRouterClient:
         self.model = model
         self.client = httpx.Client(base_url=base_url)
 
-    def generate(self, messages: List[Dict[str, str]], temperature: float = 0.7, max_tokens: int = 512) -> str:
+    def generate(self, messages: List[Dict[str, str]], temperature: float = 0.7, top_p: float = 1.0, max_tokens: int = 512) -> str:
         """
         Send a chat completion request and return the assistant's reply.
         """
@@ -19,6 +19,7 @@ class OpenRouterClient:
             "model": self.model,
             "messages": messages,
             "temperature": temperature,
+            "top_p": top_p,
             "max_tokens": max_tokens
         }
         response = self.client.post("/api/v1/chat/completions", json=payload, headers=headers)

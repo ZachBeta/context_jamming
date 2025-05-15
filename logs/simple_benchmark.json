@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "\n```json\n{\n  \"description\": \"As you sift through the rubble, your fingers brush against something cold and metallic. You uncover a tarnished silver locket with strange runes etched into its surface. The wind howls louder as you examine it, almost as if in warning.\",\n  \"choices\": [\"Open the locket\", \"Pocket the locket and continue exploring\", \"Leave the locket and search elsewhere\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.440024750016164
+  },
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the dagger, but as your fingers close around the hilt, the runes on the locket begin to glow faintly. A sudden gust of wind extinguishes the dim light in the ruins, plunging you into darkness. The dagger feels unnaturally cold in your grip.\",\n  \"choices\": [\"Sheathe the dagger and relight your torch\", \"Examine the glowing runes on the locket\", \"Swing the dagger wildly in the dark to test its weight\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.730894375010394
+  },
+  {
+    "input": "where is my dagger?",
+    "response": " I didn't take it yet\n\n```json\n{\n  \"description\": \"You realize there is no dagger in your hand - you must have imagined it in the dim light. The only object you've found so far is the tarnished silver locket still lying amidst the rubble. The wind's whisper now carries an almost mocking tone.\",\n  \"choices\": [\"Open the locket after all\", \"Search the rubble more thoroughly\", \"Leave this area and explore the broken columns\"]\n}\n```",
+    "status": "FAIL",
+    "elapsed": 4.756572459009476
+  }
+]
