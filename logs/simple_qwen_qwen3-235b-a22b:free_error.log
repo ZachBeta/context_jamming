@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/zmorek/workspace/ZachBeta/context_jamming/head_to_head.py", line 70, in <module>
+    res = future.result()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zmorek/workspace/ZachBeta/context_jamming/head_to_head.py", line 23, in run_benchmark
+    raw = agent.step(user)
+  File "/Users/zmorek/workspace/ZachBeta/context_jamming/agent.py", line 24, in step
+    response = self.model_client.generate(messages, temperature=0, top_p=1.0)
+  File "/Users/zmorek/workspace/ZachBeta/context_jamming/model_client.py", line 52, in generate
+    raise RuntimeError(f"OpenRouter API error {code}: {msg}")
+RuntimeError: OpenRouter API error 500: Internal Server Error

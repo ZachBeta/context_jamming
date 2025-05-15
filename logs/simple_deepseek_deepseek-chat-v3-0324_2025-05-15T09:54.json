@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "```json\n{\n  \"description\": \"You begin sifting through the ancient rubble, your hands brushing against cold, damp stones. Amidst the debris, you find a small, intricately carved box covered in dust. The inscriptions on it glow faintly as you touch it. The wind howls louder, as if reacting to your discovery.\",\n  \"choices\": [\"Open the box\", \"Examine the inscriptions more closely\", \"Leave the box and explore further\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.533482042024843
+  },
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"As you reach for the dagger, a sudden gust of wind extinguishes the faint glow of the inscriptions. The dagger feels unnaturally cold in your grip, and the air around you grows heavy with an eerie silence. The ruins seem to watch you, waiting.\",\n  \"choices\": [\"Sheathe the dagger and proceed\", \"Inspect the dagger for any markings\", \"Drop the dagger immediately\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 12.13181762502063
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You glance down at your hand, but the dagger is no longer there. A chill runs down your spine as you realize it has vanished without a trace. The wind howls mockingly through the ruins, and the faint glow of the inscriptions flickers ominously.\",\n  \"choices\": [\"Search the ground where you dropped it\", \"Examine your hand for any residue or marks\", \"Ignore the disappearance and press forward\"]\n}\n```",
+    "status": "FAIL",
+    "elapsed": 2.534836083999835
+  }
+]

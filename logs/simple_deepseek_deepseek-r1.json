@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"As you sift through the rubble, your fingers brush against a rusted iron key and a stone fragment etched with glowing symbols. The wind suddenly shifts, carrying a faint metallic clang from the northern corridor.\",\n  \"choices\": [\"Take the key and head north\", \"Study the symbols closely\", \"Investigate the source of the clang\"]\n}",
+    "status": "PASS",
+    "elapsed": 9.28893037501257
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"Your hands find only dust and broken stone where you search - no dagger lies among the debris. A faint violet light now pulses within the wall inscriptions to your east, synchronized with the distant clanging from the north.\",\n  \"choices\": [\"Use the iron key on the eastern wall\", \"Follow the clanging sound north\", \"Examine the pulsing inscriptions\"]\n}",
+    "status": "PASS",
+    "elapsed": 8.985164833022282
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"No dagger exists in your inventory or immediate surroundings. The chamber offers only the artifacts you've already discovered - the iron key, glowing stone fragment, and ancient inscriptions. A new sound emerges: water dripping rhythmically from the western archway's ceiling.\",\n  \"choices\": [\"Test the key on western archway\", \"Attempt to decipher the stone fragment\", \"Follow the dripping water westward\"]\n}",
+    "status": "FAIL",
+    "elapsed": 15.518751792027615
+  }
+]

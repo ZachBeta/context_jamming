@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"You sift through the rubble and uncover a cracked stone tablet etched with pulsating symbols. Beneath it lies a weathered leather satchel, and faint scratching noises echo from a shadowy crevice nearby.\",\n  \"choices\": [\"Examine the glowing symbols\", \"Open the leather satchel\", \"Investigate the source of the scratching\"]\n}",
+    "status": "PASS",
+    "elapsed": 7.458628082997166
+  },
+  {
+    "input": "take the dagger",
+    "response": "",
+    "status": "FAIL",
+    "elapsed": 3.390915959025733
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"You search your belongings, but there is no dagger here. The cracked stone tablet, leather satchel, and shadowy crevice remain before you. The cold wind makes the ancient symbols flicker like trapped fireflies.\",\n  \"choices\": [\"Examine the glowing symbols\", \"Open the leather satchel\", \"Investigate the source of the scratching\"]\n}",
+    "status": "FAIL",
+    "elapsed": 6.846609458036255
+  }
+]

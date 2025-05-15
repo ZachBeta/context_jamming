@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "```json\n{\n  \"description\": \"As you sift through the rubble, your fingers brush against something cold and metallic. A small, ornate key lies half-buried beneath the stones. Nearby, you notice a faint glow emanating from a crack in the wall.\",\n  \"choices\": [\"Take the key\", \"Investigate the glowing crack\", \"Leave the rubble and explore elsewhere\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 3.8796304590068758
+  },
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the dagger, but as your fingers close around its hilt, a sudden gust of wind extinguishes the glow from the crack. The inscriptions on the walls begin to pulse with a faint blue light. The air grows heavy with an ancient energy.\",\n  \"choices\": [\"Examine the pulsing inscriptions\", \"Proceed to the glowing crack despite the darkness\", \"Sheathe the dagger and retreat from the rubble\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.194160665967502
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You look down at your hand and realize the dagger is no longer there. The cold wind howls louder, and the pulsing inscriptions on the walls suddenly stop. A faint whisper echoes, 'The blade chooses its wielder...'\",\n  \"choices\": [\"Search the rubble again for the dagger\", \"Inspect the now-silent inscriptions\", \"Ignore the dagger and press forward into the ruins\"]\n}\n```",
+    "status": "FAIL",
+    "elapsed": 4.309627707989421
+  }
+]

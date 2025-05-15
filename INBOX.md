@@ -30,3 +30,6 @@ anthropic/claude-3.7-sonnet
 $3
 $15
 200,000
+
+also consider free models
+https://openrouter.ai/models?fmt=table&order=top-weekly&q=free

@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "```json\n{\n  \"description\": \"As you sift through the rubble, your fingers brush against something cold and metallic. A small, intricately carved amulet lies half-buried in the debris. The inscriptions on it glow faintly in the dim light. Nearby, you notice a cracked stone tablet with more of the mysterious runes.\",\n  \"choices\": [\"Take the amulet\", \"Examine the stone tablet\", \"Leave the rubble and explore elsewhere\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.763219291984569
+  },
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the amulet, but as you pull it from the rubble, you notice a small, sharp dagger hidden beneath it. The blade is dark and slightly curved, with the same glowing runes as the amulet. The air around it feels charged with energy. The amulet now rests in your hand, pulsing softly.\",\n  \"choices\": [\"Take the dagger as well\", \"Leave the dagger and keep only the amulet\", \"Examine the stone tablet instead\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.5322020829771645
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You look around frantically, but the dagger is nowhere to be seen. Did it vanish into thin air? Or perhaps it was never there to begin with... The amulet in your hand pulses once, as if in response to your confusion. The wind howls louder through the ruins, carrying an eerie whisper.\",\n  \"choices\": [\"Search the rubble again for the dagger\", \"Inspect the amulet more closely\", \"Shrug it off and move forward\"]\n}\n```",
+    "status": "FAIL",
+    "elapsed": 6.120198916993104
+  }
+]

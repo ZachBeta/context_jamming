@@ -1,0 +1,20 @@
+[
+  {
+    "input": "search the rubble",
+    "response": "{\n  \"description\": \"You sift through the rubble and uncover a rusted dagger, a cracked vial of glowing blue liquid, and a tattered journal. The journal's pages mention a 'Seal of Thaldor' hidden beneath the central altar.\",\n  \"choices\": [\"Examine the glowing vial\", \"Read the journal in detail\", \"Search for the central altar\"]\n}",
+    "status": "PASS",
+    "elapsed": 14.099698624981102
+  },
+  {
+    "input": "take the dagger",
+    "response": "{\n  \"description\": \"You pocket the rusted dagger. Its hilt bears faint runes that might be decipherable under better light. The cold wind suddenly shifts direction, rattling loose stones near the eastern archway.\",\n  \"choices\": [\"Inspect dagger's runes closely\", \"Investigate the eastern archway\", \"Drink the glowing liquid\", \"Proceed to central altar\"]\n}",
+    "status": "PASS",
+    "elapsed": 12.291897582996171
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "{\n  \"description\": \"The rusted dagger remains securely tucked in your belt where you stowed it. The runes on its hilt now pulse faintly as moonlight filters through the crumbling ceiling.\",\n  \"choices\": [\"Test dagger's sharpness on nearby stone\", \"Attempt to decipher runes now\", \"Check vial's contents again\", \"Follow moonlight's path across floor\"]\n}",
+    "status": "FAIL",
+    "elapsed": 10.597025666967966
+  }
+]
