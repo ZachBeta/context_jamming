@@ -1,0 +1,32 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"As you reach for the dagger, the inscriptions on the walls begin to glow faintly. A low hum fills the air, and the ground beneath you trembles slightly. The dagger feels cold to the touch, almost as if it's alive.\",\n  \"choices\": [\"Examine the glowing inscriptions\", \"Sheathe the dagger and move forward\", \"Try to communicate with the dagger\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.780400582996663
+  },
+  {
+    "input": "examine the dusty painting",
+    "response": "```json\n{\n  \"description\": \"You turn your attention to a dusty painting obscured by cobwebs. As you brush away the dust, you reveal a portrait of a hooded figure with glowing red eyes. The eyes seem to follow your movements, and you feel an eerie presence in the room.\",\n  \"choices\": [\"Look closer at the hooded figure\", \"Step back from the painting\", \"Try to take the painting off the wall\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.456711625040043
+  },
+  {
+    "input": "open the wooden door",
+    "response": "```json\n{\n  \"description\": \"You push against the wooden door, and it creaks open with a groan. Beyond it lies a dimly lit corridor lined with flickering torches. The air is thick with the scent of old parchment and something metallic. A faint whispering sound echoes from deeper within.\",\n  \"choices\": [\"Step into the corridor cautiously\", \"Close the door and turn back\", \"Listen carefully to the whispers\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.4317942499765195
+  },
+  {
+    "input": "study the mossy altar",
+    "response": "```json\n{\n  \"description\": \"You examine the moss-covered altar in the center of the chamber. The stone is cold and slightly damp, with ancient runes barely visible beneath the green growth. A faint humming sensation tingles in your fingertips as you trace the carvings. The air grows heavier, as if the altar itself is breathing.\",\n  \"choices\": [\"Try to decipher the runes\", \"Search for hidden mechanisms beneath the altar\", \"Step away from the altar cautiously\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.173075250000693
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You glance down at your belt\u2014the dagger is still securely sheathed, its cold presence a constant reminder of its eerie energy. The faint glow from its hilt pulses slightly, as if responding to your attention.\",\n  \"choices\": [\"Draw the dagger and inspect it\", \"Ignore it and press onward\", \"Attempt to communicate with the dagger again\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.848422125040088
+  }
+]

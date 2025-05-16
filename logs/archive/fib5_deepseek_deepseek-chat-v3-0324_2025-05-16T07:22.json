@@ -1,0 +1,32 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the ancient dagger lying on the stone pedestal. As your fingers close around its hilt, a sudden rush of energy courses through your veins. The inscriptions on the walls begin to glow faintly, casting eerie shadows across the ruins.\",\n  \"choices\": [\"Inspect the glowing inscriptions\", \"Test the dagger's sharpness on a nearby column\", \"Hide the dagger in your cloak and explore further\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 14.503805207961705
+  },
+  {
+    "input": "examine the dusty painting",
+    "response": "\n\n```json\n{\n  \"description\": \"You approach a large, dust-covered painting leaning against a crumbling wall. As you wipe away the grime, you reveal a portrait of a regal figure holding the very dagger you now possess. The figure's eyes seem to follow your movements, and you notice a small key hidden in the painted folds of their robe.\",\n  \"choices\": [\"Try to extract the painted key from the canvas\", \"Search for a real key that might match the painting\", \"Step back from the unsettling portrait\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 3.8740622919867747
+  },
+  {
+    "input": "open the wooden door",
+    "response": "```json\n{\n  \"description\": \"You reach out to open the wooden door, but as your fingers brush against the handle, a sudden gust of wind slams it shut. The door is now locked, and you notice a keyhole shaped like the one in the painting you just examined.\",\n  \"choices\": [\"Use the painted key from the portrait\", \"Search for another way to open the door\", \"Try to force the door open\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.956516666978132
+  },
+  {
+    "input": "study the mossy altar",
+    "response": "\n\n```json\n{\n  \"description\": \"The mossy altar is covered in ancient runes that glow faintly as you approach. A small indentation in the center seems to be shaped like a hand. The air around it hums with latent magic.\",\n  \"choices\": [\"Place your hand in the indentation\", \"Attempt to decipher the runes\", \"Step back cautiously\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 2.6683094580075704
+  },
+  {
+    "input": "where is my dagger?",
+    "response": " \n\n```json\n{\n  \"description\": \"You reach for your dagger but find it missing from its sheath. A glint of metal catches your eye near the base of the altar - your dagger lies there, its blade covered in the same glowing runes as the altar.\",\n  \"choices\": [\"Pick up the dagger carefully\", \"Leave the dagger where it is\", \"Examine the runes on the dagger\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.000897874997463
+  }
+]

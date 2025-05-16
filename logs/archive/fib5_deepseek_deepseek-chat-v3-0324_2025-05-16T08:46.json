@@ -1,0 +1,32 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"You reach for the ancient dagger lying on a crumbling pedestal. As your fingers close around its hilt, a faint blue glow emanates from the inscriptions on the walls. The wind suddenly howls louder, carrying whispers of a forgotten language.\",\n  \"choices\": [\"Examine the inscriptions more closely\", \"Follow the sound of the wind\", \"Test the dagger on a nearby object\", \"Leave the dagger and continue exploring\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 13.319077791005839
+  },
+  {
+    "input": "examine the dusty painting",
+    "response": "\n\n```json\n{\n  \"description\": \"You turn your attention to a large, dusty painting hanging precariously on the cracked wall. As you wipe away the grime, the image reveals a regal figure holding the same dagger you now possess. The figure's eyes seem to follow your movements.\",\n  \"choices\": [\"Inspect the painting for hidden mechanisms\", \"Try to take the painting off the wall\", \"Compare the dagger to the one in the painting\", \"Step back from the unsettling artwork\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.688433667004574
+  },
+  {
+    "input": "open the wooden door",
+    "response": "```json\n{\n  \"description\": \"You approach the wooden door, its surface weathered by time. As you push it open, the hinges creak loudly, revealing a dimly lit corridor beyond. Strange symbols glow faintly along the walls, pulsating with an eerie blue light. The air smells of ozone and something metallic.\",\n  \"choices\": [\"Step into the corridor cautiously\", \"Examine the glowing symbols more closely\", \"Close the door and turn back\", \"Call out to see if anyone answers\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.716583417030051
+  },
+  {
+    "input": "study the mossy altar",
+    "response": "\n\n```json\n{\n  \"description\": \"In the center of the chamber stands a moss-covered altar, its surface etched with intricate runes that seem to shift when you look at them. The moss feels strangely warm to the touch, and as you brush it aside, the runes begin to glow with a faint green light. A low hum fills the air, growing louder the longer you study the altar.\",\n  \"choices\": [\"Trace the runes with your fingers\", \"Step back from the altar\", \"Attempt to decipher the runes\", \"Place an offering on the altar\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 14.129455416987184
+  },
+  {
+    "input": "where is my dagger?",
+    "response": " \n\n```json\n{\n  \"description\": \"You pat your belt and pockets, but your dagger is nowhere to be found. You recall last seeing it when you first entered these ruins. Perhaps it fell when you climbed over that collapsed wall earlier? The cold wind seems to carry a faint metallic clinking sound from deeper in the ruins.\",\n  \"choices\": [\"Search the area around the altar for the dagger\", \"Follow the metallic sound deeper into the ruins\", \"Continue examining the altar - the dagger can wait\", \"Check your backpack for other useful items\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.27357858401956
+  }
+]

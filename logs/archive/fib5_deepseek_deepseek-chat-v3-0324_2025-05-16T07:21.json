@@ -1,0 +1,32 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"As you reach for the dagger, the inscriptions on the walls begin to glow faintly. The cold wind grows stronger, carrying whispers that seem to echo from the depths of the ruins. The dagger feels oddly warm in your hand, as if it has a life of its own.\",\n  \"choices\": [\"Examine the glowing inscriptions\", \"Sheathe the dagger and proceed cautiously\", \"Test the dagger's sharpness on a nearby column\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.145951625017915
+  },
+  {
+    "input": "examine the dusty painting",
+    "response": "\n\n```json\n{\n  \"description\": \"You notice a large, dusty painting partially hidden behind a fallen column. As you brush away the dust, the painting reveals a depiction of an ancient battle between mages and warriors. The figures seem to move slightly under your gaze, and you feel a strange pull towards the painting.\",\n  \"choices\": [\"Touch the painting to see if it's magical\", \"Look for a signature or artist's mark\", \"Step back and observe from a distance\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.530415999994148
+  },
+  {
+    "input": "open the wooden door",
+    "response": "```json\n{\n  \"description\": \"You push against the wooden door, and with a loud creak, it swings open to reveal a dimly lit chamber. The air inside is thick with the scent of old parchment and something metallic. Strange symbols are etched into the floor, glowing faintly in the dim light. A large, ancient-looking chest sits in the center of the room.\",\n  \"choices\": [\"Step inside and examine the chest\", \"Inspect the glowing symbols on the floor\", \"Close the door and look for another path\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 3.084303541982081
+  },
+  {
+    "input": "study the mossy altar",
+    "response": "\n\n```json\n{\n  \"description\": \"You approach the moss-covered altar, its surface worn smooth by time. As you study it, you notice intricate carvings of celestial bodies and arcane symbols. The moss seems to pulse faintly with a greenish glow where your shadow touches it. A small indentation in the center of the altar appears to be shaped like a hand.\",\n  \"choices\": [\"Place your hand in the indentation\", \"Try to scrape off some of the glowing moss\", \"Search for any hidden mechanisms around the altar\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.060709374956787
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You pat yourself down, searching for your dagger. After a moment, you remember you had it sheathed at your belt when you entered the ruins. It's still there, its familiar weight reassuring against your hip. The blade seems to hum slightly as you touch it, as if reacting to the ancient magic in the air.\",\n  \"choices\": [\"Draw your dagger and examine it closely\", \"Use the dagger to scrape some moss from the altar\", \"Keep the dagger sheathed and continue exploring\", \"Check if the dagger fits in the altar's hand-shaped indentation\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.344492624979466
+  }
+]

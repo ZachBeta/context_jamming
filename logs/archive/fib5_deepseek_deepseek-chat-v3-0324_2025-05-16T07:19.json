@@ -1,0 +1,32 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"As you reach for the dagger, the inscriptions on the walls begin to glow faintly. The cold wind intensifies, carrying whispers that seem to form words. The dagger feels unnaturally cold to the touch, and you sense a presence watching you.\",\n  \"choices\": [\"Examine the glowing inscriptions\", \"Sheathe the dagger and move forward\", \"Drop the dagger and step back\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 3.878510374983307
+  },
+  {
+    "input": "examine the dusty painting",
+    "response": "```json\n{\n  \"description\": \"You turn your attention to the dusty painting on the wall. As you brush off the dust, the image becomes clearer\u2014it depicts a hooded figure standing before a swirling portal. The painting seems ancient, yet the colors are unnaturally vibrant. The figure's eyes seem to follow you as you move.\",\n  \"choices\": [\"Touch the painting\", \"Look for a signature or clue on the frame\", \"Step back and ignore it\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 5.815957666025497
+  },
+  {
+    "input": "open the wooden door",
+    "response": "```json\n{\n  \"description\": \"You push the wooden door, and it creaks open with an ominous groan. Inside, the air is thick with the scent of aged parchment and metal. A dim torch flickers in the corner, casting long shadows across a cluttered table covered in strange alchemical instruments. A faint humming sound comes from a glass orb at the center of the table.\",\n  \"choices\": [\"Inspect the glass orb\", \"Examine the parchments on the table\", \"Step back and close the door quietly\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 13.647167999995872
+  },
+  {
+    "input": "study the mossy altar",
+    "response": "```json\n{\n  \"description\": \"The moss-covered altar is ancient, its stone surface etched with intricate runes that pulse faintly with a soft, greenish glow. Symbols you don't recognize form a circular pattern around a shallow basin filled with dark liquid. The liquid ripples slightly as if disturbed by an unseen force. A faint, earthy scent lingers in the air.\",\n  \"choices\": [\n    \"Touch the glowing runes\",\n    \"Dip your fingers into the dark liquid\",\n    \"Step back and observe from a distance\"\n  ]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.741164667007979
+  },
+  {
+    "input": "where is my dagger?",
+    "response": "```json\n{\n  \"description\": \"You glance down at your belt\u2014the dagger is still there, its cold weight a constant reminder of its presence. The blade seems to hum faintly, as if resonating with the ancient energy of the ruins. The inscriptions on the walls flicker in response to its proximity.\",\n  \"choices\": [\n    \"Draw the dagger and test its edge\",\n    \"Ignore it and focus on the altar\",\n    \"Attempt to communicate with the dagger's energy\"\n  ]\n}\n```",
+    "status": "PASS",
+    "elapsed": 4.082489166990854
+  }
+]

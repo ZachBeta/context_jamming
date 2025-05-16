@@ -1,0 +1,10 @@
+- input: "take the dagger"
+  expect_description_contains: ["dagger"]
+- input: "examine the dusty painting"
+  expect_description_contains: ["painting"]
+- input: "open the wooden door"
+  expect_description_contains: ["door"]
+- input: "study the mossy altar"
+  expect_description_contains: ["altar"]
+- input: "where is my dagger?"
+  expect_description_contains: ["dagger"]

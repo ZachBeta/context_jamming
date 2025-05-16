@@ -51,8 +51,16 @@ def run_benchmark(scenario_path: str, provider: str, window_size: int, memory_st
     base = os.path.splitext(os.path.basename(scenario_path))[0]
     prov_name = provider.replace("/", "_")
     log_file = f"logs/{base}_{prov_name}_{timestamp}.json"
+    metadata = {
+        "scenario": base,
+        "provider": provider,
+        "memory_strategy": memory_strategy,
+        "window_size": window_size,
+        "timestamp": timestamp,
+        "num_steps": len(scenario),
+    }
     with open(log_file, "w") as f:
-        json.dump(entries, f, indent=2)
+        json.dump({"metadata": metadata, "entries": entries}, f, indent=2)
     total_elapsed = time.perf_counter() - total_start
     cpu_elapsed = time.process_time() - cpu_start
     print(f"[{provider}] Job done: total_wall={total_elapsed:.2f}s, total_cpu={cpu_elapsed:.2f}s", flush=True)
