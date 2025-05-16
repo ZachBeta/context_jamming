@@ -1,0 +1,20 @@
+[
+  {
+    "input": "take the dagger",
+    "response": "```json\n{\n  \"description\": \"As you reach for the dagger, the inscriptions on the walls begin to glow faintly. The wind grows stronger, carrying whispers that seem to form words in an ancient tongue. The dagger feels cold to the touch, almost as if it's alive.\",\n  \"choices\": [\"Examine the glowing inscriptions\", \"Sheathe the dagger and move forward\", \"Try to decipher the whispers\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 7.6342857090057805
+  },
+  {
+    "input": "look at the stone wall",
+    "response": "```json\n{\n  \"description\": \"You focus on the stone wall, tracing your fingers along the glowing inscriptions. The symbols seem to shift and rearrange as you watch, forming a mysterious pattern. The whispers grow louder, and you notice a hidden path illuminated by the inscriptions.\",\n  \"choices\": [\"Follow the hidden path\", \"Attempt to translate the inscriptions\", \"Turn away from the wall and continue exploring the ruins\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 23.475024208019022
+  },
+  {
+    "input": "where is my dagger?",
+    "response": " \n\n```json\n{\n  \"description\": \"You glance down at your hand and see the dagger still firmly gripped in your palm. Its blade pulses faintly with the same eerie glow as the inscriptions on the wall, as if resonating with the ancient magic of the ruins.\",\n  \"choices\": [\"Inspect the dagger more closely\", \"Sheathe the dagger and continue\", \"Try using the dagger to interact with the glowing inscriptions\"]\n}\n```",
+    "status": "PASS",
+    "elapsed": 6.115859833022114
+  }
+]

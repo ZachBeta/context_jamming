@@ -5,25 +5,28 @@ import os, sys, argparse, yaml, json, time, traceback
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from agent import DomainAgent
 from model_client import OpenRouterClient
-from memory import SlidingWindowMemory
+from memory import SlidingWindowMemory, RollingSummaryMemory
 from prompts import STATIC_PRIMER
 import os.path
 import datetime
 
-def run_benchmark(scenario_path: str, provider: str, window_size: int):
+def run_benchmark(scenario_path: str, provider: str, window_size: int, memory_strategy: str = "sliding"):
     api_key = os.getenv("OPENROUTER_API_KEY")
     print(f"[DEBUG] OPENROUTER_API_KEY loaded length: {len(api_key) if api_key else 0}", flush=True)
     if not api_key:
         raise RuntimeError("Please set OPENROUTER_API_KEY in your environment.")
     client = OpenRouterClient(api_key, provider)
-    memory = SlidingWindowMemory(window_size=window_size)
+    if memory_strategy == "rolling":
+        memory = RollingSummaryMemory(client, raw_window_size=window_size)
+    else:
+        memory = SlidingWindowMemory(window_size=window_size)
     agent = DomainAgent(client, memory, STATIC_PRIMER, deterministic=True)
     scenario = yaml.safe_load(open(scenario_path))
     # Timestamp to avoid overwriting logs
     timestamp = datetime.datetime.now().isoformat(timespec='minutes')
     # Profiling: record job start
     base = os.path.splitext(os.path.basename(scenario_path))[0]
-    print(f"[{provider}] Starting job: scenario={base}, window_size={window_size}", flush=True)
+    print(f"[{provider}] Starting job: scenario={base}, window_size={window_size}, strategy={memory_strategy}", flush=True)
     total_start = time.perf_counter()
     cpu_start = time.process_time()
     entries = []
@@ -62,6 +65,7 @@ if __name__ == "__main__":
     parser.add_argument("--providers", required=True, help="Comma-separated OpenRouter provider IDs")
     parser.add_argument("--workers", type=int, default=1, help="Number of concurrent workers")
     parser.add_argument("--window-size", type=int, default=4, help="Sliding window size for memory")
+    parser.add_argument("--memory-strategy", choices=["sliding","rolling"], default="sliding", help="Memory strategy to use (sliding-window or rolling-summary)")
     args = parser.parse_args()
     # Ensure logs directory exists for outputs and error logs
     os.makedirs("logs", exist_ok=True)
@@ -82,7 +86,7 @@ if __name__ == "__main__":
 
     print(f"Running {len(jobs)} jobs with {args.workers} workers...")
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        future_to_job = {executor.submit(run_benchmark, s, p, args.window_size): (s, p) for s, p in jobs}
+        future_to_job = {executor.submit(run_benchmark, s, p, args.window_size, args.memory_strategy): (s, p) for s, p in jobs}
         for future in as_completed(future_to_job):
             s, p = future_to_job[future]
             try:
